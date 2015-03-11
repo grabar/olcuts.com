@@ -1,0 +1,27 @@
+$img_dir: "../images/";
+
+$tc_01a:	rgba(105,87,0,1);			//brown1
+$tc_01b:	darken( $tc_01a, 10% );	//brown2
+$tc_02a:	rgba(233,240,0,1);			//lime1
+$tc_02b:	darken( $tc_02a, 10% );	//lime2
+
+$tc_white:	rgba(255,255,255,1);
+$tc_white90:rgba(255,255,255,0.9);
+$tc_white75:rgba(255,255,255,0.75);
+$tc_white50:rgba(255,255,255,0.5);
+$tc_white25:rgba(255,255,255,0.25);
+
+$tc_black:	rgba(0,0,0,1);
+$tc_black90:rgba(0,0,0,0.9);
+$tc_black75:rgba(0,0,0,0.75);
+$tc_black50:rgba(0,0,0,0.5);
+$tc_black25:rgba(0,0,0,0.25);
+
+$tc_clear:	rgba(255,255,255,0);
+
+$tel:rgba(90,90,90,1);
+$mail:rgba(255,138,0,1);
+$twitter:rgba(0,172,237,1);
+$facebook:rgba(59,80,151,1);
+$line:rgba(0,195,0,1);
+$skype:rgba(0,175,240,1);

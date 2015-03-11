@@ -1,0 +1,26 @@
+{
+	"name": "olcuts.com",
+	"version": "0.1",
+	"authors": [
+		"Masaya Yasuda <m.yasuda@grabar.jp>"
+	],
+	"description": "Onelove Cut's website renewal",
+	"homepage": "http://olcuts.com",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"libs",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "2",
+		"magnific-popup": "~1.0.0",
+		"html5shiv": "~3.7.2",
+		"moment": "~2.9.0",
+		"animsition": "~3.4.3"
+	}
+}
+f
