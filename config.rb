@@ -3,12 +3,12 @@ cache = false
 asset_cache_buster :none
 
 # Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "/css"
-sass_dir = "/css/sass"
-images_dir = "/images"
-javascripts_dir = "/js"
-fonts_dir = "/fonts"
+http_path = "../"
+css_dir = "cakephp/app/webroot/css"
+sass_dir = "cakephp/app/webroot/css/sass"
+images_dir = "../images"
+javascripts_dir = "../js"
+fonts_dir = "../fonts"
 
 output_style = :expanded
 

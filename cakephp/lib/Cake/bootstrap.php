@@ -76,7 +76,7 @@ if (!defined('JS')) {
  * Path to the public images directory.
  */
 if (!defined('IMAGES')) {
-	define('IMAGES', WWW_ROOT . 'img' . DS);
+	define('IMAGES', WWW_ROOT . 'images' . DS);
 }
 
 /**
@@ -101,6 +101,13 @@ if (!defined('LOGS')) {
 }
 
 /**
+ * Path to webroot libs directory.
+ */
+if (!defined('LIBS')) {
+	define('LIBS', TMP . 'libs' . DS);
+}
+
+/**
  * Path to the cache files directory. It can be shared between hosts in a multi-server setup.
  */
 if (!defined('CACHE')) {
@@ -118,7 +125,7 @@ if (!defined('VENDORS')) {
  * Web path to the public images directory.
  */
 if (!defined('IMAGES_URL')) {
-	define('IMAGES_URL', 'img/');
+	define('IMAGES_URL', 'images/');
 }
 
 /**
@@ -133,6 +140,13 @@ if (!defined('CSS_URL')) {
  */
 if (!defined('JS_URL')) {
 	define('JS_URL', 'js/');
+}
+
+/**
+ * Web path to the libs files directory.
+ */
+if (!defined('LIBS_URL')) {
+	define('LIBS_URL', 'libs/');
 }
 
 require CAKE . 'basics.php';
